@@ -1,0 +1,71 @@
+
+body{
+  font-family: Geneva, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  color:#868686;
+  font-size:14px;
+  background-color:rgb(36, 36, 36);
+  background-image: url('../i/grid.png');
+  background-attachment: fixed;
+  margin: 0px;
+}
+
+.content-wrapper{
+  background-image: url('../i/refinery_silhouette_long_v1.png');
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  min-height:100%;
+  display:block;
+  overflow:auto;
+}
+
+h1,h2,h3{
+  font-family: Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+}
+
+h1{
+  font-size:35px;
+}
+
+h4{
+  font-weight: bold;
+  font-size: 21px;
+  letter-spacing: 2px;
+}
+
+#break{
+  width: 300px;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #868686;
+  padding: 0;
+}
+
+#numbers{
+  font-size:25px;
+}
+
+a, a.nav-link:link, a:hover, a:focus, a:active, a:visited{
+  color:#868686;
+  text-decoration:none;
+}
+
+.collection-entry{
+  padding: 15px;
+  margin: 10px 0;
+}
+
+.collection-entry:hover{
+  background-color: rgba(12,12,12,.7);
+}
+
+.gallery-icon-img{
+  margin: 10px;
+  border: 1px solid #868686;;
+}
+
+/*BOOTSTRAP*/
+
+.thumbnail{
+  background-color: transparent;
+  border: none;
+}

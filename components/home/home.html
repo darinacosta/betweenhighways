@@ -1,0 +1,15 @@
+<p>{{about}}</p>
+<br>
+  <div class="col-md-12" ng-repeat="source in sources">
+    <a href="{{source.url}}" target="_blank">
+      <div class="col-md-5">
+        <img class="gallery-icon-img" src="{{source.image}}">
+      </div>
+      <div class="col-md-7 thumbnail collection-entry">
+        <h4><span ng-bind-html="source.alias"></span></h4> 
+        {{source.description}}
+      </div>
+    </a>
+  </div> 
+</div>
+ 

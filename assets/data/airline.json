@@ -1,0 +1,48 @@
+ {"name": "The Airline is a Very Long Road",
+  "about": "Videos, photographs, web applications, and ephemeral research on the development of Louisiana, as well as the cyclical economic collapse, social strife, and environmental decay that often result. Additional localities included when relevant.",
+  "contact": "airlinehighwayproject@gmail.com.",
+  "sources": [
+
+        {
+          "alias": "The German Coast <span class='glyphicon glyphicon-globe'></span> <span class='glyphicon glyphicon-film'></span>",
+          "url": "http://germancoast.verylongroad.com/",
+          "description": "Interactive map that explores the industrial landscapes of Louisiana's German Coast region through several vignettes. The 'Hurricane' vignette features the short film 'The West Indian Hurricane of 1915'. Dynamic events occur on the map as the film plays.",
+          "image": "./assets/i/germancoast-icon.png"
+        },
+        {
+          "alias": "Bummer (demo) <img src='./assets/i/game-glyph_29x21.png'>",
+          "url": "http://oldland.verylongroad.com",
+          "description": "A video game currently in development that blends social histories of the River Parish region with speculative fiction and 16-bit style side-scrolling gameplay.",
+          "image": "./assets/i/bummer-icon.png"
+         },
+        {
+          "alias": "The Norco Shell Explosion of 1988 <span class='glyphicon glyphicon-film'></span>",
+          "url": "https://www.youtube.com/watch?v=wsWbq2-g2is",
+          "description": "A meditation on the impacts of the 1988 Shell Explosion in Norco, Louisiana,  and the industrialized landscape that remains.",
+          "image": "./assets/i/shellexplosion-icon.png"
+        },
+        {
+          "alias": "Old Land <span class='glyphicon glyphicon-globe'></span>",
+          "url": "http://oldland.verylongroad.com",
+          "description": "Map viewer that allows the user to overlay two 19th century maps of South Louisiana on contemporary aerial imagery and adjust transparency. The River Parish overlay is featured in the German Coast, but the New Orleans overlay is not.",
+          "image": "./assets/i/oldland-icon.png"
+        }
+  
+  
+  ],
+
+  "archive": [
+        {"alias": "The West Indian Hurricane",
+         "url": "https://www.youtube.com/watch?v=hERXpPDzFwg",
+         "description": "Longtime St. John Parish resident Donald Tregre discusses the parallels between the West Indian Hurricane (1915) and Hurricane Isaac (2012). Most footage was filmed in the parishes of St. John, St. Charles, and Plaquemines at or near the time of Hurricane Isaac."},
+        {"alias": "Proposed RAM Coal Terminal",
+         "Publication": "The American Guide",
+         "url": "http://theamericanguide.org/project/proposed-ram-coal-terminal/",
+         "description": "A look at the proposed RAM Coal Terminal in Ironton, Louisiana and its expected impacts on the local community."},
+        {"alias": "Norco, Louisiana",
+         "Publication": "The American Guide",
+         "url": "http://blog.theamericanguide.org/post/55177477695/norco-louisiana-shell-oil-erected-their-catalytic",
+         "description": "A meditation on the impacts of the 1988 Shell Explosion in Norco, Louisiana,  and the industrialized landscape that remains."}
+         ]
+
+}

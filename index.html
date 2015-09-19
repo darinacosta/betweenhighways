@@ -1,0 +1,22 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="assets/css/style.css" rel="stylesheet" media="screen">
+</head>
+<body ng-app="app">
+  <div class="content-wrapper">
+    <div class="container">
+      <div ng-view></div>
+    </div>
+  </div>
+  <script src="node_modules/angular/angular.js"></script>
+  <script src="node_modules/angular-route/angular-route.js"></script>
+  <script src="node_modules/angular-sanitize/angular-sanitize.min.js"></script>
+
+
+  <script src="app.js"></script>
+
+  <script src="components/home/homeCtrl.js"></script>
+</body>
+</html>
