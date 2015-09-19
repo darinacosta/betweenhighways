@@ -5,13 +5,13 @@
 
         {
           "alias": "The German Coast <span class='glyphicon glyphicon-globe'></span> <span class='glyphicon glyphicon-film'></span>",
-          "url": "http://germancoast.verylongroad.com/",
+          "url": "./#/germancoast",
           "description": "Interactive map that explores the industrial landscapes of Louisiana's German Coast region through several vignettes. The 'Hurricane' vignette features the short film 'The West Indian Hurricane of 1915'. Dynamic events occur on the map as the film plays.",
           "image": "./assets/i/germancoast-icon.png"
         },
         {
           "alias": "Bummer (demo) <img src='./assets/i/game-glyph_29x21.png'>",
-          "url": "http://oldland.verylongroad.com",
+          "url": "./#/game",
           "description": "A video game currently in development that blends social histories of the River Parish region with speculative fiction and 16-bit style side-scrolling gameplay.",
           "image": "./assets/i/bummer-icon.png"
          },
@@ -20,18 +20,18 @@
           "url": "https://www.youtube.com/watch?v=wsWbq2-g2is",
           "description": "A meditation on the impacts of the 1988 Shell Explosion in Norco, Louisiana,  and the industrialized landscape that remains.",
           "image": "./assets/i/shellexplosion-icon.png"
-        },
-        {
-          "alias": "Old Land <span class='glyphicon glyphicon-globe'></span>",
-          "url": "http://oldland.verylongroad.com",
-          "description": "Map viewer that allows the user to overlay two 19th century maps of South Louisiana on contemporary aerial imagery and adjust transparency. The River Parish overlay is featured in the German Coast, but the New Orleans overlay is not.",
-          "image": "./assets/i/oldland-icon.png"
         }
   
   
   ],
 
   "archive": [
+          {
+          "alias": "Old Land <span class='glyphicon glyphicon-globe'></span>",
+          "url": "http://oldland.verylongroad.com",
+          "description": "Map viewer that allows the user to overlay two 19th century maps of South Louisiana on contemporary aerial imagery and adjust transparency. The River Parish overlay is featured in the German Coast, but the New Orleans overlay is not.",
+          "image": "./assets/i/oldland-icon.png"
+        },
         {"alias": "The West Indian Hurricane",
          "url": "https://www.youtube.com/watch?v=hERXpPDzFwg",
          "description": "Longtime St. John Parish resident Donald Tregre discusses the parallels between the West Indian Hurricane (1915) and Hurricane Isaac (2012). Most footage was filmed in the parishes of St. John, St. Charles, and Plaquemines at or near the time of Hurricane Isaac."},

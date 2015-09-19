@@ -1,8 +1,8 @@
 
 body{
-  font-family: Geneva, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  font-family: dosisregular;
   color:#868686;
-  font-size:14px;
+  font-size:17px;
   background-color:rgb(36, 36, 36);
   background-image: url('../i/grid.png');
   background-attachment: fixed;
@@ -18,12 +18,9 @@ body{
   overflow:auto;
 }
 
-h1,h2,h3{
-  font-family: Cambria, 'Hoefler Text', Utopia, 'Liberation Serif', 'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
-}
-
 h1{
-  font-size:35px;
+  font-size:25px;
+  text-align:center;
 }
 
 h4{
@@ -58,9 +55,38 @@ a, a.nav-link:link, a:hover, a:focus, a:active, a:visited{
   background-color: rgba(12,12,12,.7);
 }
 
+.collection-entry-text-wrapper{
+  padding-left:40px;
+}
+
 .gallery-icon-img{
   margin: 10px;
   border: 1px solid #868686;;
+}
+
+.gallery-iframe{
+  border: none;
+  box-shadow: 5px 9px 12px #0D0D0D;
+  margin: 0 auto;
+  display:block;
+}
+
+.iframe-wrapper{
+  width:100%; 
+  margin-top:50px;
+}
+
+.return-button{
+  background-color:#622222; 
+  display:block;margin:0 auto;
+  left:0;border:none;
+  font-size:25px; 
+  margin-bottom:20px
+}
+
+.title-wrapper{
+  width:100%;
+  background-color:rgb(12, 12, 12);
 }
 
 /*BOOTSTRAP*/
