@@ -2,17 +2,18 @@
 <div class="title-wrapper">
   <h1>DIGITAL MEDIA GALLERY</h1>
 </div>
-  <div class="col-md-12" ng-repeat="source in sources">
-    <a href="{{source.url}}">
-      <div class="row collection-entry">
-        <div class="col-md-5">
-          <img class="gallery-icon-img" src="{{source.image}}">
-        </div>
-        <div class="col-md-7 collection-entry-text-wrapper">
-          <h4><span ng-bind-html="source.alias"></span></h4> 
-          {{source.description}}
-        </div>
+<div class="col-md-12" ng-repeat="source in sources">
+  <a href="{{source.url}}">
+    <div class="row collection-entry">
+      <div class="col-md-5">
+        <img class="gallery-icon-img" src="{{source.image}}">
       </div>
-    </a>
-  </div> 
+      <div class="col-md-7 collection-entry-text-wrapper">
+        <h4><span ng-bind-html="source.alias"></span></h4> 
+        {{source.description}}
+      </div>
+    </div>
+  </a>
+  <hr class="gallery-hr">
+</div> 
  
