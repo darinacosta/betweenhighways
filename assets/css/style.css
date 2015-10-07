@@ -3,7 +3,7 @@ body{
   font-family: dosisregular;
   color:#868686;
   font-size:17px;
-  background-color:rgb(36, 36, 36);
+  background-color: black /*rgb(36, 36, 36)*/;
   background-image: url('../i/grid.png');
   background-attachment: fixed;
   margin: 0px;
@@ -52,7 +52,7 @@ a, a.nav-link:link, a:hover, a:focus, a:active, a:visited{
 }
 
 .collection-entry:hover{
-  background-color: rgba(12,12,12,.7);
+  background-color: #352323 /*rgba(12,12,12,.7)*/;
 }
 
 .collection-entry-text-wrapper{
@@ -73,7 +73,7 @@ a, a.nav-link:link, a:hover, a:focus, a:active, a:visited{
 
 .iframe-wrapper{
   width:100%; 
-  margin-top:50px;
+  /*margin-top:50px;*/
 }
 
 .return-button{
@@ -86,7 +86,7 @@ a, a.nav-link:link, a:hover, a:focus, a:active, a:visited{
 
 .title-wrapper{
   width:100%;
-  background-color:rgb(12, 12, 12);
+  background-color: #313131 /*rgb(12, 12, 12)*/;
 }
 
 .gallery-hr{
