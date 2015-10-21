@@ -4,14 +4,14 @@ body{
   color:#868686;
   font-size:17px;
   background-color: black /*rgb(36, 36, 36)*/;
-  background-image: url('../i/grid.png');
+  background-image: url('../i/paneling.gif');
   background-attachment: fixed;
   margin: 0px;
 }
 
 .content-wrapper{
-  background-image: url('../i/refinery_silhouette_long_v1.png');
-  background-repeat: repeat-y;
+  /*background-image: url('../i/static2.gif');*/
+  /*background-repeat: repeat-y;*/
   background-attachment: fixed;
   min-height:100%;
   display:block;
@@ -69,6 +69,10 @@ a, a.nav-link:link, a:hover, a:focus, a:active, a:visited{
   box-shadow: 5px 9px 12px #0D0D0D;
   margin: 0 auto;
   display:block;
+}
+
+.hide{
+  display: hidden;
 }
 
 .iframe-wrapper{

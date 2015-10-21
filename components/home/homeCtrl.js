@@ -10,6 +10,12 @@ function homeCtrl($scope, $http) {
     $scope.contact = data.contact;
   })
 
-console.log('home control')
+  $scope.computeCssClass = function(last){
+  	if (last){ 
+  		return "hide";
+    } else {
+    	return "gallery-hr";
+    }
+  };
 
 }
