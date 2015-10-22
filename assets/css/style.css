@@ -52,7 +52,7 @@ a, a.nav-link:link, a:hover, a:focus, a:active, a:visited{
 }
 
 .collection-entry:hover{
-  background-color: #352323 /*rgba(12,12,12,.7)*/;
+  background-color: rgba(12,12,12,.7);
 }
 
 .collection-entry-text-wrapper{
@@ -61,7 +61,8 @@ a, a.nav-link:link, a:hover, a:focus, a:active, a:visited{
 
 .gallery-icon-img{
   margin: 10px;
-  border: 1px solid #868686;;
+  border: 1px solid #868686;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.46);;
 }
 
 .gallery-iframe{
