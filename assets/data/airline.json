@@ -6,7 +6,7 @@
         {
           "alias": "The German Coast <span class='glyphicon glyphicon-globe'></span> <span class='glyphicon glyphicon-film'></span>",
           "url": "./#/germancoast",
-          "description": "Interactive map that explores the industrial landscapes of Louisiana's German Coast region through several vignettes. The 'Hurricane' vignette features the short film 'The West Indian Hurricane of 1915'. Dynamic events occur on the map as the film plays.",
+          "description": "The German Coast is an interactive map that explores the industrial landscapes of Louisiana's German Coast region through several vignettes. The 'Hurricane' vignette is a hybrid film and web map that together construct a parallel historical account of the West Indian Hurricane of 1915 and Hurricane Isaac. The German Coast currently features 5 vignettes, with 4 additional ones in development.",
           "image": "./assets/i/germancoast-icon.png"
         },
         {
@@ -14,15 +14,7 @@
           "url": "./#/game",
           "description": "A video game currently in development that blends social histories of the River Parish region with speculative fiction and 16-bit style side-scrolling gameplay.",
           "image": "./assets/i/bummer-icon.png"
-         },
-        {
-          "alias": "Dehumanized Spaces <span class='glyphicon glyphicon-film'></span>",
-          "url": "https://www.youtube.com/watch?v=wsWbq2-g2is",
-          "description": "A montage that weaves together interviews, found footage, and soundscapes from hyper-industrialized and dehumanized landscapes across South Louisiana. Includes a meditation on the impacts of the 1988 Shell Explosion in Norco; found news footage from the Pan Am Flight 759 crash in Kenner; footage from a drone flyover of the Bayou Corne Sinkhole, and more.",
-          "image": "./assets/i/shellexplosion-icon.png"
-        }
-  
-  
+         }
   ],
 
   "archive": [
