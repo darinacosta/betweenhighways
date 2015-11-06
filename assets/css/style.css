@@ -4,7 +4,7 @@ body{
   color:#868686;
   font-size:17px;
   background-color: black /*rgb(36, 36, 36)*/;
-  background-image: url('../i/paneling.gif');
+  background-image: url('../i/bluegrid.png');
   background-attachment: fixed;
   margin: 0px;
 }
@@ -49,10 +49,12 @@ a, a.nav-link:link, a:hover, a:focus, a:active, a:visited{
 .collection-entry{
   padding: 15px;
   margin: 10px 0;
+  background-color: rgba(22, 49, 98, 0.28);
 }
 
 .collection-entry:hover{
-  background-color: rgba(12,12,12,.7);
+  background-color: rgba(22, 49, 98, 0.58);
+  color:white;
 }
 
 .collection-entry-text-wrapper{
@@ -81,7 +83,6 @@ a, a.nav-link:link, a:hover, a:focus, a:active, a:visited{
 
 .iframe-wrapper{
   width:100%; 
-  /*margin-top:50px;*/
 }
 
 .return-button{
@@ -94,7 +95,7 @@ a, a.nav-link:link, a:hover, a:focus, a:active, a:visited{
   font-size:25px; 
 }
 
-.title-wrapper{x
+.title-wrapper{
   width:100%;
   background-color: #313131 /*rgb(12, 12, 12)*/;
 }
