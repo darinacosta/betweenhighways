@@ -1,12 +1,28 @@
 
 body{
   font-family: dosisregular;
-  color:#868686;
-  font-size:17px;
+  text-shadow: 2px 2px #000000;
+  color:#C9C9C9;
+  font-size:19px;
   background-color: black /*rgb(36, 36, 36)*/;
   background-image: url('../i/bluegrid.png');
   background-attachment: fixed;
   margin: 0px;
+}
+
+.blink {
+  animation: blink 1s steps(10, start) infinite;
+  -webkit-animation: blink 1s steps(10, start) infinite;
+}
+@keyframes blink {
+  to {
+    background-color: rgba(204,78,78,.6);
+  }
+}
+@-webkit-keyframes blink {
+  to {
+    background-color: rgba(204,78,78,.6);
+  }
 }
 
 .content-wrapper{
@@ -63,13 +79,14 @@ a, a.nav-link:link, a:hover, a:focus, a:active, a:visited{
 
 .gallery-icon-img{
   margin: 10px;
-  border: 1px solid #868686;
+  border: 5px ridge rgba(51, 106, 123, 0.7);
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.46);;
 }
 
 .gallery-iframe{
   border: none;
-  /*box-shadow: 5px 9px 12px #0D0D0D;*/
+  box-shadow: 12px 16px 35px black;
+  border: 5px ridge rgba(51, 106, 123, 0.7);
   margin: 0 auto;
   margin-top: 40px;
   display: block;
@@ -81,15 +98,11 @@ a, a.nav-link:link, a:hover, a:focus, a:active, a:visited{
   display: hidden;
 }
 
-.iframe-wrapper{
-  width:100%; 
-}
-
 .return-button{
   position: absolute;
   top: 615px;
-  left: 530px;
-  background-color:#622222; 
+  left: 44%;
+  background-color:#B10909; 
   display:block;margin:0 auto;
   border:none;
   font-size:25px; 
@@ -98,6 +111,7 @@ a, a.nav-link:link, a:hover, a:focus, a:active, a:visited{
 .title-wrapper{
   width:100%;
   background-color: #313131 /*rgb(12, 12, 12)*/;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.46);
 }
 
 .gallery-hr{

@@ -6,19 +6,31 @@
         {
           "alias": "The German Coast <span class='glyphicon glyphicon-globe'></span> <span class='glyphicon glyphicon-film'></span>",
           "url": "./#/germancoast",
-          "description": "The German Coast is an interactive map that explores the industrial landscapes of Louisiana's German Coast region through several vignettes. The 'Hurricane' vignette is a hybrid film and web map that together construct a parallel historical account of the West Indian Hurricane of 1915 and Hurricane Isaac. The German Coast currently features 5 vignettes, with 4 additional ones in development.",
+          "description": "An interactive map that explores the industrial landscapes of Louisiana's German Coast region through several vignettes. The 'Hurricane' vignette is a hybrid film and web map that together construct a parallel historical account of the West Indian Hurricane of 1915 and Hurricane Isaac. The German Coast currently features 5 vignettes, with 4 more in development.",
           "image": "./assets/i/germancoast-icon.png"
         },
         {
           "alias": "Geography of Robots (demo) <img src='./assets/i/game-glyph_29x21.png'>",
           "url": "./#/game",
-          "description": "A video game currently in development that blends social histories of the River Parish region with speculative fiction and 16-bit style side-scrolling gameplay.",
+          "description": "Louisiana. 20XX. An escaped security cyborg fights to protect her home from repossession in the hyper-industrialized dystopia left in the wake of the oil industry. Featuring a score by <b>Amitai Heller</b> & <b>Seamstress</b>.",
           "image": "./assets/i/bummer-icon.png"
-         }
+        },
+        {
+          "alias": "End Millennium (demo) <img src='./assets/i/game-glyph_29x21.png'>",
+          "url": "./#/endmillennium",
+          "description": "You and your sister break into Wal-Mart in the aftermath of a devastating hurricane with a stranger you met on Craigslist. Interactive fiction featuring music by <b>Seamstress</b>.",
+          "image": "./assets/i/endmillennium-icon.png"
+        }
   ],
 
   "archive": [
-          {
+        {
+          "alias": "Between Highways <span class='glyphicon glyphicon-film'></span>",
+          "url": "./#/endmillennium",
+          "description": "A video montage featuring footage, interviews, and ephemera from the Norco Shell explosion of 1988, the Kenner airplane crash of 1983, the Bayou Corne Sinkhole, and more. Featuring music by <b>Tate Carson</b>.",
+          "image": "./assets/i/btwhwys-icon.png"
+        },
+        {
           "alias": "Old Land <span class='glyphicon glyphicon-globe'></span>",
           "url": "http://oldland.verylongroad.com",
           "description": "Map viewer that allows the user to overlay two 19th century maps of South Louisiana on contemporary aerial imagery and adjust transparency. The River Parish overlay is featured in the German Coast, but the New Orleans overlay is not.",

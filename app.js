@@ -9,14 +9,13 @@ var app = angular.module("app", ["ngRoute", "ngSanitize"])
       templateUrl: 'components/home/home.html'
   })
    .when("/game", {
-      //controller: 'homeCtrl', 
-      //controllerUrl: 'components/home/homeCtrl',
       templateUrl: 'components/game/game.html'
   })
   .when("/germancoast", {
-    //controller: 'homeCtrl', 
-    //controllerUrl: 'components/home/homeCtrl',
     templateUrl: 'components/germancoast/germancoast.html'
+  })
+  .when("/endmillennium", {
+    templateUrl: 'components/endmillennium/endmillennium.html'
   })
   .otherwise({redirectTo: "/"});
 });
