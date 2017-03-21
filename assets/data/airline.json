@@ -7,13 +7,20 @@
           "alias": "The German Coast <span class='glyphicon glyphicon-globe'></span> <span class='glyphicon glyphicon-film'></span>",
           "url": "./#/germancoast",
           "description": "An interactive map that explores the industrial landscapes of Louisiana's German Coast region through several vignettes. The 'Hurricane' vignette is a hybrid film and web map that together construct a parallel historical account of the West Indian Hurricane of 1915 and Hurricane Isaac. The German Coast currently features 5 vignettes, with 4 more in development.",
-          "image": "./assets/i/germancoast-icon.png"
+          "image": "./assets/i/germancoastflare.gif"
         },
         {
-          "alias": "Geography of Robots (demo) <img src='./assets/i/game-glyph_29x21.png'>",
-          "url": "./#/game",
+          "alias": "Norco: Faraway Lights (demo) <img src='./assets/i/game-glyph_29x21.png'>",
+          "url": "./#/norcofarawaylights",
+          "src": "norcochapterone",
           "description": "Louisiana. 20XX. An escaped security cyborg fights to protect her home from repossession in the hyper-industrialized dystopia left in the wake of the oil industry. Featuring a score by <b>Amitai Heller</b> & <b>Seamstress</b>. Heads up: you may need to speak to the smoking man more than once...",
-          "image": "./assets/i/bummer-icon.png"
+          "image": "./assets/i/motorcycleridedownairline.gif"
+        },
+        {
+          "alias": "Swampstar <img src='./assets/i/game-glyph_29x21.png'>",
+          "url": "./#/swampstar",
+          "description": "A one-act play in pixels that meditates on the broken swamplands of Louisiana's future.",
+          "image": "./assets/i/swampstar.gif"
         },
         {
           "alias": "End Millennium (demo) <img src='./assets/i/game-glyph_29x21.png'>",
