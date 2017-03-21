@@ -91,6 +91,7 @@ canvas {
   border: none;
   box-shadow: 12px 16px 35px black;
   border: 5px ridge rgba(51, 106, 123, 0.7);
+  background-color: rgba(51, 106, 123, 0.7);
   margin: 0 auto;
   margin-top: 40px;
   display: block;
